@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Homepage</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header class="header">
         <a href="#" class="logo">Natalio</a>
 
-        <nav>
+        <nav class="navbar">
             <a href="#">Home</a>
             <a href="about.html">About Me</a>
             <a href="skills.html">Skill</a>
@@ -23,21 +24,28 @@
         </nav>
     </header>
 
-    <section>
-        <div class="home-content">
-            <h1>Hi, I'm Natalio Tumuahi</h1>
-            <h3>Data Scientist</h3>
-            <p>I am an Informatics student at Sam Ratulangi University, Manado. Pleased to meet you.</p>
-                <a href="#">Hire Me</a>
-                <a href="#">Let's Talk</a>
+    <section class="home">
+        <div class="content">
+            <h1>Hi, I'm <span>Natalio Tumuahi</span></h1>
+            <div class="animasi-teks">
+                <h3>Data Scientist</h3>
+            </div>
+            <p>I am an Informatics student at Sam Ratulangi University, Manado. 
+                Pleased to meet you.</p>
+
+            <div class="icon-box">
+                <a href="#" class="icon">Hire Me</a>
+                <a href="#" class="icon">Let's Talk</a>
+            </div>
         </div>
 
         <div class="medsos">
-            <a href="https://www.facebook.com/natalio.tumuahi.3"><i class='bx bxl-facebook'></i><a>
+            <a href="https://www.facebook.com/natalio.tumuahi.3"><i class='bx bxl-facebook'></i></a>
             <a href="https://www.instagram.com/nataliotumuahi/"><i class='bx bxl-instagram' ></i></a>
             <a href="https://www.linkedin.com/in/natalio-tumuahi-56340427a/"><i class='bx bxl-linkedin' ></i></a>
             <a href="https://github.com/natalio123"><i class='bx bxl-github' ></i></a>
         </div>
+        <span class="home-imgHover"></span>
     </section>
 </body>
 </html>
