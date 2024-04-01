@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Homepage</title>
+    <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="#" class="logo">Natalio</a>
 
-        <nav>
+        <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
             <a href="skills.html">Skill</a>
@@ -19,12 +20,37 @@
         </nav>
     </header>
 
-    <section>
-        <h2>Portofolio Gallery</h2>
-        <img src="gambar/1.png" alt="" width="260px">
-        <img src="gambar/2.png" alt="" width="260px">
-        <img src="gambar/3.png" alt="" width="260px">
-        <img src="gambar/4.png" alt="" width="260px">
+    <section class="gallery">
+        <h2>Portofolio <span>Gallery</span></h2>
+        <div class="row">
+            <div class="column">
+              <div class="content">
+                <img src="/gambar/1.jpg" alt="" style="width: 100%">
+                <h3>Analisis Gerai Pizza</h3>
+                <p>Dengan tujuan mengetahui diameter pizza terdistribusi normal atau tidak dan mengetahui perbedaan signifikan diameter pizza di kedua kedai menggunakan teknik Uji Shapiro Test, dll</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+              <img src="gambar/2.jpg" alt="" style="width:100%" class="image">
+                <h3>Dashboard Analysis Disney+ Movies & TV Shows</h3>
+                <p>Dari tampilan diatas menggunakan Ms Power BI, dapat diambil salah satu kesimpulan yaitu Show terbanyak berdasarkan rating adalah PG dengan jumlah rating 162 dan lain sebagainya dapat dilihat diatas.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+              <img src="/gambar/3.jpg" alt="" style="width:100%">
+                <h3>Dashboard Analisis Penjualan</h3>
+                <p>Dari tampilan Dashboard diatas menggunakan Ms Excel dapat diambil salah satu kesimpulan yaitu penjualan tertinggi terdapat di bulan september </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+              <img src="gambar/4.jpg" alt="" style="width:100%">
+                <h3>Prediction Model menggunakan Python</h3>
+                <p>Dengan tujuan membuat model yang dapat memprediksi setidaknya 60% dari pelanggan yg akan mengalami telat bayar kartu kredit [Accuracy & Recall di atas 60%].</p>
+              </div>
+            </div>
     </section>
 </body>
 </html>

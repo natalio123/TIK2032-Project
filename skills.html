@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Homepage</title>
+    <link rel="stylesheet" href="skills.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="#" class="logo">Natalio</a>
 
-        <nav>
+        <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
             <a href="#">Skill</a>
@@ -19,24 +20,62 @@
         </nav>
     </header>
     
-    <section >
-        <h2>
+    <section class="skills" >
+        <h2 class="heading">
             My <span>Skills</span>
         </h2>
-        <div class="skills-row">
-            <div class="skills-column">
+
+        <div class="row">
+            <div class="column">
                 <h3 class="title">Coding Skills</h3>
-                    <p>Python <span>90%</span></p>
-                    <p>SQL <span>95%</span></p>
-                    <p>R <span>75%</span></p>
+
+                <div class="box">
+                    <div class="content">
+                        <div class="progress">
+                            <h3>Python <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>SQL  <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>R<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <div class="skills-column">
+            <div class="column">
                 <h3 class="title">Professional Skiils</h3>
-                    <p>Math & Statistics <span>80%</span></p>
-                    <p>Microsoft Excel <span>95%</span></p>
-                    <p>Business <span>75%</span></p>
-                    <p>Communication <span>85%</span></p>
+
+                <div class="box">
+                    <div class="content">
+                        <div class="progress">
+                            <h3>Math & Statistics<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Ms Excel <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Business  <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Communication<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
