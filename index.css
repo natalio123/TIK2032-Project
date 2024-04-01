@@ -73,6 +73,7 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
 .home  {
     display: flex;
     align-items: center;
@@ -107,7 +108,7 @@ section {
     margin: 2rem 0 4rem;
 }
 
-.icon-box {
+.box {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -115,7 +116,7 @@ section {
     height: 5rem;
 }
 
-.icon-box .icon {
+.box .icon {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -134,23 +135,23 @@ section {
     transition: .5s;
 }
 
-.icon-box .icon:hover {
+.box .icon:hover {
     color: var(--main-color);
 }
-.icon-box .icon:nth-child(2){
+.box .icon:nth-child(2){
     background: transparent;
     color: var(--main-color);
 }
 
-.icon-box .icon:nth-child(2)::before {
+.box .icon:nth-child(2)::before {
     background: var(--main-color);
 }
 
-.icon-box .icon:nth-child(2):hover{
+.box .icon:nth-child(2):hover{
     color: var(--bg-color);
 
 }
-.icon-box .icon::before{
+.box .icon::before{
     content: '';
     position: absolute;
     top: 0;
@@ -163,7 +164,7 @@ section {
 }
 
 
-.icon-box .icon:hover::before {
+.box .icon:hover::before {
     width: 100%;
 }
 
@@ -212,7 +213,7 @@ section {
     width: 100%;
 }
 
-.home-imgHover {
+.imgHover {
     position: absolute;
     top: 0;
     right: 0;
@@ -222,7 +223,7 @@ section {
     transition: 3s;
 }
 
-.home-imgHover:hover {
+.imgHover:hover {
     background: var(--bg-color);
     opacity: .8;
 }

@@ -13,7 +13,7 @@
 }
 :root {
     --bg-color: #081b29;
-    --second-bg-color: #112e42;
+    --second-bg-color: #435585;
     --text-color:#ededed;
     --main-color: #00abf0;
 }
@@ -81,9 +81,6 @@ section {
     padding-bottom: 6rem;
     }
 
-.about {
-
-}
 
 h2 {
     font-size: 5rem;
