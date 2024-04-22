@@ -41,6 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
 }
 
 .logo {
@@ -98,7 +99,7 @@ span {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: ccenter;
+    align-items: center;
 }
 
 .img img {
@@ -118,6 +119,7 @@ span {
     border-bottom: .2rem solid var(--second-bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
+    animation: aboutSpinner 8s linear infinite;
 }
 
 .content {
@@ -134,3 +136,9 @@ span {
     text-align: justify;
 }
 
+/* KEYFRAMES ANIMATION */
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
