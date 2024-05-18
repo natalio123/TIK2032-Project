@@ -48,7 +48,7 @@ $conn->close();
             <a href="about.html">About Me</a>
             <a href="skills.html">Skill</a>
             <a href="gallery.html">Portofolio Gallery</a>
-            <a href="index blog.php">Blog</a>
+            <a href="index_blog.php">Blog</a>
             <a href="#">Contact</a>
         </nav>
     </header>
